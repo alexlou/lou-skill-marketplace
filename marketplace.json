@@ -1,0 +1,19 @@
+{
+  "name": "lou-skill-marketplace",
+  "owner": { "name": "Alex Lou" },
+  "metadata": {
+    "description": "Personal Claude Code skill collection",
+    "version": "1.0.0",
+    "pluginRoot": "./skills"
+  },
+  "plugins": [
+    {
+      "name": "celebrity-distiller",
+      "source": "./skills/celebrity-distiller",
+      "description": "Distill a person's biography, book content, or name into a comprehensive decision-making profile and actionable playbook.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["biography", "decision-making", "mental-models", "learning"]
+    }
+  ]
+}
