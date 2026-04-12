@@ -36,3 +36,35 @@ Tag every principle, behavior, and playbook item with one of:
 - `[conflicting sources]` — new material contradicts an existing point; present both versions
 
 Retain all markers in the final consolidated output.
+
+## Part 1 — Comprehensive Profile
+
+After determining input type and gathering enough material, produce the following structure. Target a profile readable in 10 minutes. Aim for depth over breadth — 3-5 strong, well-evidenced principles are better than 10 thin ones.
+
+### Core Values
+3-5 deeply held beliefs that drove their decisions. Each value:
+- stated as a short label (e.g., "Perfectionism over shipping speed")
+- followed by 1-2 sentences of explanation
+- tagged with a source confidence marker
+
+### Mental Models
+How they thought about problems. Examples: first principles reasoning, long-term vs short-term framing, systems thinking, etc. Each model:
+- named and briefly explained
+- grounded in a specific decision or behavior from the source
+- tagged with a source confidence marker
+
+### Decision-Making Principles
+Rules they applied consistently across contexts. Each principle:
+- stated as a concrete rule (not an abstraction)
+- illustrated with an example from their life or work
+- tagged with a source confidence marker
+
+### Signature Behaviors
+Patterns others observed — how they ran meetings, hired people, handled failure, responded to criticism, etc. Each behavior:
+- described specifically (not "he was detail-oriented" but "he reviewed every line of ad copy before it ran")
+- tagged with a source confidence marker
+
+### Key Quotes
+Direct quotes from the source material anchoring the principles above.
+Format: "[Quote]" — [context of when/where it was said] [source confidence marker]
+If input was name-only, paraphrase known quotes and tag [general knowledge].
