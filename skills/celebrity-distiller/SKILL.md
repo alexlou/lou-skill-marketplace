@@ -97,3 +97,26 @@ The five default situational headers below are starting scaffolding. For subject
 [1-3 concrete rules, each tagged with a source confidence marker]
 
 [Add person-specific sections as warranted by the source material]
+
+## Refinement Loop
+
+After outputting Part 1 and Part 2, prompt the user:
+
+```
+Want to refine this? You can:
+  1. Paste more excerpts from the book
+  2. Correct something that feels off
+  3. Add a specific domain (e.g., "focus on how they managed teams")
+  4. Type 'done' to finish
+```
+
+For each refinement round:
+- **New excerpts:** Extract new principles or behaviors and merge them into the existing profile. Do not restart.
+- **Corrections:** Update the flagged item and note what changed.
+- **Domain focus:** Deepen the relevant subsection(s) with more specificity.
+- **Contradictions:** If new material conflicts with an existing point, flag it `[conflicting sources]` and present both versions side by side.
+
+After each round, reprint the affected subsections with `[updated]` or `[added]` markers. Full reprinting is acceptable — the markers are best-effort annotations, not guaranteed minimal diffs.
+
+When the user types `done`:
+Reprint the complete, consolidated profile — both Part 1 and Part 2 in full — with all source confidence markers retained. This is the final reference document.
