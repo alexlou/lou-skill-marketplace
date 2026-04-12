@@ -68,3 +68,32 @@ Patterns others observed — how they ran meetings, hired people, handled failur
 Direct quotes from the source material anchoring the principles above.
 Format: "[Quote]" — [context of when/where it was said] [source confidence marker]
 If input was name-only, paraphrase known quotes and tag [general knowledge].
+
+## Part 2 — Actionable Playbook
+
+Immediately after Part 1, produce the playbook. Derive it from the profile — do not introduce new principles here.
+
+Playbook items must be concrete rules, not vague abstractions.
+- Good: "Would cut the feature scope, not the timeline."
+- Bad: "Prioritized quality."
+
+Each item carries a source confidence marker.
+
+The five default situational headers below are starting scaffolding. For subjects where these frames don't fit (e.g., a musician, scientist, or athlete), replace them with more relevant situations derived from the source material.
+
+### When facing a difficult decision...
+[1-3 concrete rules, each tagged with a source confidence marker]
+
+### When dealing with failure...
+[1-3 concrete rules, each tagged with a source confidence marker]
+
+### When evaluating people or talent...
+[1-3 concrete rules, each tagged with a source confidence marker]
+
+### When setting priorities...
+[1-3 concrete rules, each tagged with a source confidence marker]
+
+### When under pressure...
+[1-3 concrete rules, each tagged with a source confidence marker]
+
+[Add person-specific sections as warranted by the source material]
