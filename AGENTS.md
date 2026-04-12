@@ -14,7 +14,7 @@ This is a personal Claude Code skill marketplace hosted on GitHub. It contains r
 Or using `npx skill`:
 
 ```bash
-npx skill install github:alexlou/lou-skill-marketplace/<skill-name>
+SKILL_BASE_URL=https://github.com/alexlou/lou-skill-marketplace/tree/main npx skill skills/<skill-name>
 ```
 
 No backend, database, or build system — this is a flat-file GitHub-native marketplace.
