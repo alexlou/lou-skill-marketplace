@@ -65,7 +65,7 @@ Patterns others observed — how they ran meetings, hired people, handled failur
 - tagged with a source confidence marker
 
 ### Key Quotes
-Direct quotes from the source material anchoring the principles above.
+Direct quotes from the source material, each tagged with a source confidence marker, anchoring the principles above.
 Format: "[Quote]" — [context of when/where it was said] [source confidence marker]
 If input was name-only, paraphrase known quotes and tag [general knowledge].
 
