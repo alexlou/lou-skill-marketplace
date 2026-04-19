@@ -22,6 +22,14 @@
       "version": "2.0.0",
       "category": "productivity",
       "tags": ["biography", "decision-making", "mental-models", "strategy"]
+    },
+    {
+      "name": "frontend-dev-flow",
+      "source": "./skills/frontend-dev-flow",
+      "description": "Standardized TDD and agile frontend development workflow covering design, tool selection, test planning, and implementation.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["frontend", "tdd", "agile", "workflow", "testing"]
     }
   ]
 }

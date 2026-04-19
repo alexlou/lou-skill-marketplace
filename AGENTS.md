@@ -74,9 +74,17 @@ Add an entry to the `plugins` array:
 
 Valid categories: `development`, `productivity`, `data`, `security`, `domain-specific`, `creative`
 
-### Step 3 — Push to GitHub
+### Step 3 — Local Synchronization (Hermes/Gemini CLI)
 
-Once pushed to `main`, the skill is immediately installable. No build step required.
+After creating or updating a skill, run the synchronization script to symlink it to your local environment:
+
+```bash
+./sync-skills.sh
+```
+
+### Step 4 — Push to GitHub
+
+Once synced and verified locally, push to `main`. The skill is immediately installable via Claude Code. No build step required.
 
 ---
 
@@ -85,7 +93,8 @@ Once pushed to `main`, the skill is immediately installable. No build step requi
 1. Edit `skills/<skill-name>/SKILL.md` — update instructions, examples, or frontmatter
 2. Bump `version` in both `SKILL.md` frontmatter (if present) and `marketplace.json`
 3. Keep `name` stable — renaming a skill is a breaking change for existing users
-4. Push to `main`
+4. Run `./sync-skills.sh` to update local symlinks
+5. Push to `main`
 
 ---
 
